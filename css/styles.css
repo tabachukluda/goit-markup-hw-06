@@ -834,3 +834,7 @@ footer{
     border: transparent;
 
 }
+.checkbox-line{
+    color: var(--primary-accent-color);
+    text-decoration-line: underline;
+}
