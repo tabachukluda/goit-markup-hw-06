@@ -496,6 +496,7 @@ footer{
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    color: var(--secondary-backgrountd-color);
     
 }
 
@@ -507,6 +508,8 @@ footer{
     height: 40px;
     background: var(--primary-accent-color);
     border-radius: 4px;
+    border: none;
+    cursor: pointer;
     color: var(--white-color);
     margin-left: 24px;
     font-weight: 500;
@@ -690,7 +693,6 @@ footer{
 
 .modal-title{
     width: 100%;
-    height: 24px;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -704,12 +706,16 @@ footer{
     margin-bottom: 8px;
 }
 .modal-input{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 38px;
     width: 100%;
     height: 40px;
     background:var(--background-modal);
     border: 1px solid rgba(33, 33, 33, 0.2);
     outline: transparent ;
     border-radius: 4px;
+    color: var(--footer-background-color);
 
     transition-property: border-color;
     transition-duration: var(--trans-dur);
@@ -717,20 +723,19 @@ footer{
 }
 .modal-but{
     padding: 16px 32px;
-    width: 169px;
-    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5x;
+    line-height: 1.5;
     background: var(--primary-accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: var(--white-color);
-    text-align: center;
-    align-items: flex-start;
     border: none;
     margin: 0 auto;
     display: block;
+    cursor: pointer;
     
     
     transition-property: backgrount-color;
@@ -747,7 +752,6 @@ footer{
 .input-text{
     display: inline-block;
     margin-bottom: 4px;
-    font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -830,6 +834,7 @@ footer{
     background-color: var(--secondary-accent-color);
     background-image: url(../images/click.svg);
     background-size: contain;
+    background-repeat: no-repeat;
     background-origin: border-box;
     border: transparent;
 
