@@ -515,6 +515,10 @@ footer{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+
+    transition-property: background-color;
+    transition-duration: var(--trans-dur);
+    transition-timing-function: var(--trans-time);
 }
 
 .subscribe-but:hover,
